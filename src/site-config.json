@@ -1,0 +1,508 @@
+{
+  "business": {
+    "name": "Onyx Hvac",
+    "phone": "555-hva-r93",
+    "category": "hvac",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  "design": {
+    "preset": {
+      "id": "hvac-dark-premium",
+      "categoryGroup": "hvac",
+      "name": "Dark Premium",
+      "recipeFile": "hvac/dark-premium.astro",
+      "colors": {
+        "primary": "#60A5FA",
+        "primaryDark": "#4d84c8",
+        "primaryLight": "#bfdbfd",
+        "secondary": "#2A2A2A",
+        "accent": "#78b3fb",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "hvac/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Phoenix HVAC Experts You Can Trust",
+      "heroSubline": "Reliable heating and cooling solutions for Arizona's extreme climate. Local technicians who understand desert living.",
+      "aboutTitle": "Our Phoenix HVAC Story",
+      "aboutText": [
+        "Founded in 2012, Onyx HVAC began with a simple mission: provide honest, quality service to our neighbors in Maricopa County. What started as one technician servicing window units in Scottsdale casitas has grown into a team of 20+ specialists handling everything from historic Biltmore homes to modern Gilbert developments.",
+        "We approach every job with Arizona's unique challenges in mind - whether it's mitigating monsoon humidity in Mesa homes or preventing UV damage to outdoor units in Tempe. Our methods are built on 12 years of experience with the Valley's specific climate and housing stock.",
+        "When we're not installing or repairing systems, you'll find our team volunteering with Phoenix Heat Relief Network and sponsoring youth sports teams from Arcadia to Ahwatukee."
+      ],
+      "valueProps": [
+        {
+          "title": "Desert-Proof Systems",
+          "description": "Our installations account for extreme heat, dust storms, and UV exposure unique to Phoenix."
+        },
+        {
+          "title": "No Surprise Pricing",
+          "description": "Upfront quotes with price protection - what we estimate is what you pay."
+        },
+        {
+          "title": "Local Technicians",
+          "description": "Every team member lives in and understands our service areas."
+        },
+        {
+          "title": "24/7 Emergency Service",
+          "description": "When your AC fails during a 115° heatwave, we'll be there."
+        }
+      ],
+      "ctaHeadline": "Beat the Heat Before It Hits",
+      "ctaSubline": "Schedule your pre-summer maintenance check today."
+    },
+    "services": [
+      {
+        "slug": "emergency-ac-repair",
+        "name": "Emergency AC Repair",
+        "shortDescription": "24/7 response when Phoenix heat threatens your comfort.",
+        "description": "When your AC fails during a 115° summer day, every minute counts. Our rapid response teams are strategically stationed across the Valley to reach you fast. We carry parts for common Phoenix-area systems including Trane, Lennox, and Carrier units designed for desert climates.\n\nSpecial considerations for historic homes: We're experienced with older systems in Arcadia's mid-century properties and know how to retrofit cooling solutions without compromising character. For newer Chandler developments, we optimize smart thermostat compatibility.\n\nOur process begins with diagnosing whether it's a simple fix (like replacing a capacitor) or requires deeper system evaluation. You'll get clear options - never pressure to replace when repair makes sense.",
+        "process": [
+          "Step 1: 24/7 dispatch with 90-minute average response time",
+          "Step 2: Full diagnostic testing with clear explanations",
+          "Step 3: Repair vs. replace consultation",
+          "Step 4: System performance verification"
+        ],
+        "benefits": [
+          "Same-day service for critical failures",
+          "Technicians carry most common Phoenix-area parts",
+          "No overtime charges for nights/weekends",
+          "12-month warranty on all repairs"
+        ],
+        "faq": [
+          {
+            "question": "How fast can you respond during monsoon season?",
+            "answer": "We maintain extra on-call teams from June-September, with average response times under 2 hours even during dust storms."
+          },
+          {
+            "question": "Do you service swamp coolers?",
+            "answer": "Yes - we're one of few Phoenix HVAC companies still maintaining evaporative systems common in older Mesa and Scottsdale homes."
+          },
+          {
+            "question": "What if my unit needs replacement instead?",
+            "answer": "We'll provide transparent cost comparisons and never push unnecessary upgrades. Many Phoenix homes can extend system life with proper maintenance."
+          }
+        ]
+      },
+      {
+        "slug": "heat-pump-installation",
+        "name": "Heat Pump Installation",
+        "shortDescription": "Energy-efficient solutions for Arizona's mild winters and scorching summers.",
+        "description": "Modern heat pumps offer Phoenix homeowners the perfect balance of cooling power and winter efficiency. Unlike traditional AC units, these systems provide both heating and cooling - ideal for our 45° winter nights and 110° summer days.\n\nWe specialize in installations for Arizona's specific needs, including units with enhanced UV-resistant coatings and dust-repellent filters. For Southwestern-style homes with tile roofs, we've developed non-invasive mounting techniques that preserve architectural integrity.\n\nThe process begins with a Manual J load calculation specific to your home's orientation, insulation, and window types - critical in Phoenix's extreme climate. We'll then recommend appropriately sized systems (oversized units waste energy, undersized units strain prematurely).\n\nPost-installation, we provide training on using your new system efficiently, including optimal thermostat settings for our dry heat and how to leverage time-of-use electricity rates.",
+        "process": [
+          "Step 1: Free home energy assessment",
+          "Step 2: Custom system design session",
+          "Step 3: Permitting and approvals (handled by us)",
+          "Step 4: Installation with minimal disruption"
+        ],
+        "benefits": [
+          "30% more efficient than conventional AC in our climate",
+          "Qualifies for SRP and APS rebates",
+          "Quieter operation than window units",
+          "10-year parts warranty available"
+        ],
+        "faq": [
+          {
+            "question": "Do heat pumps work in 110° weather?",
+            "answer": "Modern variable-speed models we install maintain efficiency up to 115° - we avoid brands that struggle with Phoenix summers."
+          },
+          {
+            "question": "How does this differ from a traditional AC?",
+            "answer": "Heat pumps transfer rather than generate heat, making them 2-3x more efficient during our mild winters while providing equal cooling."
+          },
+          {
+            "question": "Will this increase my home value?",
+            "answer": "Yes - heat pumps are increasingly desirable in Phoenix's eco-conscious market, especially in Tempe and Scottsdale neighborhoods."
+          }
+        ]
+      },
+      {
+        "slug": "duct-sealing",
+        "name": "Duct Sealing & Repair",
+        "shortDescription": "Stop wasting cooled air in Phoenix's extreme climate.",
+        "description": "In the desert heat, leaky ducts can waste 30% of your cooled air - equivalent to leaving windows open. Our specialized duct services address common Phoenix-area issues like:\n\n• Drywall dust accumulation in older Scottsdale homes\n• Monsoon humidity warping connections in Mesa properties\n• Rodent damage in rural Laveen developments\n\nUsing state-certified pressure testing, we identify leaks most companies miss. For historic adobe homes, we employ traditional materials that maintain breathability while improving efficiency. Modern Gilbert builds receive aeroseal technology that won't void builder warranties.\n\nYou'll immediately notice improved airflow to distant rooms - critical in Arizona's heat where temperature stratification can exceed 15° between floors. Many clients report 20% lower cooling costs post-service.",
+        "process": [
+          "Step 1: Pressure test to quantify leakage",
+          "Step 2: Visual inspection of accessible ducts",
+          "Step 3: Precision sealing of all joints",
+          "Step 4: Post-repair performance verification"
+        ],
+        "benefits": [
+          "Average $35/month energy savings",
+          "Reduces dust infiltration during haboobs",
+          "Improves air quality in older homes",
+          "2-year guarantee on all seal work"
+        ],
+        "faq": [
+          {
+            "question": "How often should ducts be inspected?",
+            "answer": "Annually in older homes, every 3 years for newer construction. Desert conditions accelerate wear."
+          },
+          {
+            "question": "Will you need to open walls?",
+            "answer": "Rarely - 90% of leaks occur at accessible connections. We use endoscopic cameras when needed."
+          },
+          {
+            "question": "Can this help with hot/cold rooms?",
+            "answer": "Absolutely - proper balancing is included with every service to eliminate those 10° differences between rooms."
+          }
+        ]
+      },
+      {
+        "slug": "preventive-maintenance",
+        "name": "Preventive Maintenance",
+        "shortDescription": "Proactive care to avoid Phoenix's most common HVAC failures.",
+        "description": "Phoenix's extreme conditions demand more than basic filter changes. Our comprehensive maintenance plans address:\n\n• Dust storm debris clogging condenser coils\n• Monsoon moisture promoting mold in evaporators\n• UV degradation of electrical components\n\nWe developed our 32-point checklist specifically for Arizona homes, including often-overlooked items like checking refrigerant pressure at 110° ambient temps (vastly different than manufacturer's 'standard' test conditions).\n\nFor historic properties, we inspect original ductwork integrity and insulation. Newer builds receive smart system diagnostics. All plans include priority scheduling - critical when you need urgent service before a heatwave.\n\nOur most popular package includes bi-annual visits (pre-summer and post-monsoon) with 15% discount on any repairs uncovered. Members also receive free emergency diagnostic fees ($95 value) if issues arise between visits.",
+        "process": [
+          "Step 1: Full system performance baseline",
+          "Step 2: Component-by-component inspection",
+          "Step 3: Cleaning and adjustments",
+          "Step 4: Detailed report with findings"
+        ],
+        "benefits": [
+          "Extends equipment life by 3-5 years",
+          "Catches small issues before they fail",
+          "Maintains manufacturer warranties",
+          "Priority service scheduling"
+        ],
+        "faq": [
+          {
+            "question": "How often should maintenance be done?",
+            "answer": "Twice yearly minimum - before summer peak and after monsoon season when dust accumulates."
+          },
+          {
+            "question": "Does this help with energy bills?",
+            "answer": "Properly maintained systems use 15-20% less energy - significant in Phoenix's long cooling season."
+          },
+          {
+            "question": "What if you find a serious issue?",
+            "answer": "We provide transparent repair/replace recommendations with no pressure - many issues can be monitored if caught early."
+          }
+        ]
+      },
+      {
+        "slug": "uv-air-purification",
+        "name": "UV Air Purification",
+        "shortDescription": "Combat Valley fever and monsoon mold in your home.",
+        "description": "Phoenix's unique combination of dust storms, fungal spores, and indoor-outdoor living creates air quality challenges uncommon elsewhere. Our UV purification systems specifically target:\n\n• Valley fever pathogens in desert soil dust\n• Mold spores thriving in monsoon humidity\n• VOC off-gassing from stucco and tile materials\n\nWe install hospital-grade UV-C lights in your ductwork that neutralize 99.9% of microorganisms without producing ozone. For whole-home protection, we recommend pairing with MERV 13+ filtration - a system we've perfected for Arizona's particulate challenges.\n\nInstallation takes just 4-6 hours with no structural modifications. You'll notice reduced allergy symptoms within days, especially during haboob events. Many Ahwatukee clients report fewer sinus infections post-installation.\n\nAll systems include a 5-year bulb replacement program (UV effectiveness diminishes over time) with automatic scheduling reminders.",
+        "process": [
+          "Step 1: Home air quality assessment",
+          "Step 2: Custom system design",
+          "Step 3: Professional installation",
+          "Step 4: Baseline air quality testing"
+        ],
+        "benefits": [
+          "Reduces airborne illness transmission",
+          "Eliminates musty monsoon odors",
+          "Safe for pets and children",
+          "10-year unit warranty"
+        ],
+        "faq": [
+          {
+            "question": "Is this effective against wildfire smoke?",
+            "answer": "When paired with our high-MERV filters, yes - we've helped many Cave Creek residents breathe easier during fire season."
+          },
+          {
+            "question": "How often do bulbs need replacement?",
+            "answer": "Every 18 months for optimal performance - we'll remind you when it's time."
+          },
+          {
+            "question": "Will this help my dust allergies?",
+            "answer": "Dramatically - our clients report 60-70% fewer allergy symptoms, especially during haboobs."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marta R.",
+        "rating": 5,
+        "service": "Emergency AC Repair",
+        "text": "When our 20-year-old unit failed during July's 118° heatwave, Onyx had us cooled down by sunset. The technician sourced a rare compressor part for our vintage system instead of pushing replacement. His knowledge of our historic Encanto home's layout saved hours of work.",
+        "date": "2025-07-18"
+      },
+      {
+        "name": "James L.",
+        "rating": 5,
+        "service": "Heat Pump Installation",
+        "text": "Our new heat pump handles everything from 45° winter nights to summer extremes without breaking a sweat. The install crew preserved our Sistine Chapel-like ceiling during the ductwork - no drywall damage at all. Our APS bill dropped $80/month compared to the old AC.",
+        "date": "2025-03-22"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Duct Sealing",
+        "text": "After years of the upstairs being 12° hotter than downstairs, Onyx found leaks at every junction in our 1980s Ahwatukee home. They used some specialized foil tape that's held through two monsoon seasons. Kids can finally sleep in their rooms during summer.",
+        "date": "2025-09-05"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Preventive Maintenance",
+        "text": "Their pre-summer check caught a failing capacitor that would've died during the heat dome. What impressed me most was how they explained the repair options without pressure - just honest advice about our 8-year-old system's remaining lifespan. Will always use their maintenance plan.",
+        "date": "2025-05-30"
+      },
+      {
+        "name": "Aisha B.",
+        "rating": 5,
+        "service": "UV Air Purification",
+        "text": "As an asthma sufferer, I was skeptical but desperate after last year's dust storms. The difference is night and day - no more wheezing after gardening or during haboobs. Installation was cleaner than some remodel work we've had done. Worth every penny.",
+        "date": "2025-08-14"
+      },
+      {
+        "name": "Tom W.",
+        "rating": 5,
+        "service": "Emergency AC Repair",
+        "text": "Came home from work to a 92° house and a tripped breaker during that record September heat. Onyx had a tech out within 90 minutes who diagnosed a faulty contactor. Fixed it right there with parts he carried, no upselling. Even checked our whole system for other potential issues at no extra charge.",
+        "date": "2025-09-21"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Phoenix HVAC Services | Reliable AC Repair & Installation",
+        "description": "Onyx HVAC provides trusted heating and cooling solutions for Phoenix's extreme climate. Emergency AC repair, heat pumps, and preventive maintenance."
+      },
+      "about": {
+        "title": "About Our Phoenix HVAC Company | Onyx HVAC",
+        "description": "Learn about our local roots and specialized approach to handling Arizona's unique HVAC challenges since 2012."
+      },
+      "services": {
+        "title": "Phoenix HVAC Services | AC Repair & Installation Specialists",
+        "description": "Comprehensive HVAC services designed for Phoenix homes - from emergency repairs to energy-efficient installations."
+      },
+      "contact": {
+        "title": "Contact Phoenix HVAC Experts | Onyx HVAC",
+        "description": "Schedule service or get answers about your Phoenix home's heating and cooling needs. Fast local response."
+      },
+      "reviews": {
+        "title": "Phoenix HVAC Reviews | Real Customer Experiences",
+        "description": "See why Phoenix homeowners trust Onyx HVAC for their AC repair, installation, and maintenance needs."
+      },
+      "service-areas": {
+        "title": "Phoenix HVAC Service Areas | Local Coverage",
+        "description": "Serving Scottsdale, Mesa, Chandler, Gilbert, and Tempe with specialized HVAC solutions."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Scottsdale",
+        "slug": "scottsdale-az",
+        "state": "AZ",
+        "content": "Onyx HVAC provides top-tier cooling solutions for Scottsdale's luxury estates, where extreme summer heat exceeding 110°F demands reliable HVAC systems. Our specialized services include high-efficiency air conditioning installations, smart thermostat integrations, and routine maintenance to ensure your home stays comfortable year-round. With many homes featuring custom designs, we offer tailored HVAC solutions to match the unique needs of Scottsdale's upscale properties.",
+        "localContext": "Scottsdale is known for its luxury Southwestern estates and high-end residential communities.",
+        "nearbyAreas": [
+          "Phoenix",
+          "Paradise Valley",
+          "Fountain Hills"
+        ]
+      },
+      {
+        "city": "Mesa",
+        "slug": "mesa-az",
+        "state": "AZ",
+        "content": "Serving Mesa's 1970s-80s stucco homes, Onyx HVAC specializes in updating older HVAC systems to handle the extreme summer heat exceeding 110°F. We offer duct sealing, energy-efficient upgrades, and emergency repairs to keep your home cool and comfortable. Our team understands the unique challenges of Mesa's aging infrastructure and provides cost-effective solutions to improve indoor air quality and system longevity.",
+        "localContext": "Mesa features many stucco homes from the 1970s-80s, requiring specialized HVAC care.",
+        "nearbyAreas": [
+          "Gilbert",
+          "Tempe",
+          "Chandler"
+        ]
+      },
+      {
+        "city": "Chandler",
+        "slug": "chandler-az",
+        "state": "AZ",
+        "content": "Onyx HVAC is the trusted choice for Chandler's 1990s-2000s planned communities, where extreme summer heat exceeding 110°F can strain even modern HVAC systems. We provide comprehensive services, including AC tune-ups, refrigerant recharges, and system replacements tailored to newer constructions. Our expertise ensures your HVAC system runs efficiently, reducing energy costs and extending its lifespan in Chandler's demanding climate.",
+        "localContext": "Chandler is characterized by its well-planned developments from the 1990s-2000s.",
+        "nearbyAreas": [
+          "Gilbert",
+          "Mesa",
+          "Tempe"
+        ]
+      },
+      {
+        "city": "Gilbert",
+        "slug": "gilbert-az",
+        "state": "AZ",
+        "content": "In Gilbert's newer construction homes (2000s-2020s), Onyx HVAC delivers cutting-edge HVAC solutions to combat extreme summer heat exceeding 110°F. From installing high-SEER systems to optimizing airflow in open-concept designs, we ensure your home remains cool and energy-efficient. Our preventive maintenance plans help Gilbert homeowners avoid costly breakdowns during peak summer months.",
+        "localContext": "Gilbert is known for its rapid growth and newer residential developments.",
+        "nearbyAreas": [
+          "Chandler",
+          "Mesa",
+          "Queen Creek"
+        ]
+      },
+      {
+        "city": "Tempe",
+        "slug": "tempe-az",
+        "state": "AZ",
+        "content": "Onyx HVAC serves Tempe's university-area homes near ASU, where extreme summer heat exceeding 110°F can overwhelm older HVAC systems. We specialize in quick repairs, ductless mini-splits for smaller spaces, and eco-friendly cooling options. Whether you're a student or a long-time resident, our team ensures your home stays comfortable despite Tempe's scorching temperatures.",
+        "localContext": "Tempe is home to Arizona State University and a mix of student housing and older homes.",
+        "nearbyAreas": [
+          "Mesa",
+          "Phoenix",
+          "Chandler"
+        ]
+      },
+      {
+        "city": "Phoenix",
+        "slug": "phoenix-az",
+        "state": "AZ",
+        "content": "Onyx HVAC is proud to serve Phoenix, where extreme summer heat exceeding 110°F makes reliable cooling a necessity. We offer 24/7 emergency repairs, HVAC installations for all home types, and energy-efficient upgrades to combat the desert climate. Our team is familiar with Phoenix's diverse neighborhoods and provides customized solutions to keep your home comfortable year-round.",
+        "localContext": "Phoenix is Arizona's largest city with a mix of historic and modern homes.",
+        "nearbyAreas": [
+          "Scottsdale",
+          "Tempe",
+          "Glendale"
+        ]
+      },
+      {
+        "city": "Glendale",
+        "slug": "glendale-az",
+        "state": "AZ",
+        "content": "In Glendale, Onyx HVAC addresses the challenges of extreme summer heat exceeding 110°F with dependable AC repairs, maintenance, and replacements. We serve a variety of home styles, from mid-century builds to newer subdivisions, ensuring optimal cooling performance. Our proactive approach helps Glendale residents avoid system failures during the hottest months.",
+        "localContext": "Glendale features a mix of mid-century and newer suburban homes.",
+        "nearbyAreas": [
+          "Phoenix",
+          "Peoria",
+          "Sun City"
+        ]
+      },
+      {
+        "city": "Peoria",
+        "slug": "peoria-az",
+        "state": "AZ",
+        "content": "Onyx HVAC keeps Peoria homes cool despite extreme summer heat exceeding 110°F with expert HVAC services. From routine maintenance to full system replacements, we cater to both older and newer neighborhoods. Our energy-efficient solutions help Peoria homeowners reduce utility bills while maintaining superior comfort.",
+        "localContext": "Peoria is a growing suburb with a mix of established and new developments.",
+        "nearbyAreas": [
+          "Glendale",
+          "Surprise",
+          "Sun City"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "emergency-ac-repair": "/images/service-emergency-ac-repair.webp",
+      "heat-pump-installation": "/images/service-heat-pump-installation.webp",
+      "duct-sealing": "/images/service-duct-sealing.webp",
+      "preventive-maintenance": "/images/service-preventive-maintenance.webp",
+      "uv-air-purification": "/images/service-uv-air-purification.webp"
+    },
+    "servicesResponsive": {
+      "emergency-ac-repair": {
+        "src": "/images/service-emergency-ac-repair.webp",
+        "srcset": "/images/service-emergency-ac-repair-400w.webp 400w, /images/service-emergency-ac-repair-800w.webp 800w, /images/service-emergency-ac-repair-1200w.webp 1200w, /images/service-emergency-ac-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "heat-pump-installation": {
+        "src": "/images/service-heat-pump-installation.webp",
+        "srcset": "/images/service-heat-pump-installation-400w.webp 400w, /images/service-heat-pump-installation-800w.webp 800w, /images/service-heat-pump-installation-1200w.webp 1200w, /images/service-heat-pump-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "duct-sealing": {
+        "src": "/images/service-duct-sealing.webp",
+        "srcset": "/images/service-duct-sealing-400w.webp 400w, /images/service-duct-sealing-800w.webp 800w, /images/service-duct-sealing-1200w.webp 1200w, /images/service-duct-sealing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "preventive-maintenance": {
+        "src": "/images/service-preventive-maintenance.webp",
+        "srcset": "/images/service-preventive-maintenance-400w.webp 400w, /images/service-preventive-maintenance-800w.webp 800w, /images/service-preventive-maintenance-1200w.webp 1200w, /images/service-preventive-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "uv-air-purification": {
+        "src": "/images/service-uv-air-purification.webp",
+        "srcset": "/images/service-uv-air-purification-400w.webp 400w, /images/service-uv-air-purification-800w.webp 800w, /images/service-uv-air-purification-1200w.webp 1200w, /images/service-uv-air-purification.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
